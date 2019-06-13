@@ -3,6 +3,7 @@ xkb_symbols "basic" {
 
     include "latin"
     include "level3(ralt_switch)"
+    include "us(dvorak)"
 
     name[Group1]= "English (US)";
 
@@ -26,7 +27,7 @@ xkb_symbols "basic" {
     key <AD04> {	[	  r,	R, parenleft		]	};
     key <AD05> {	[	  t,	T, parenright		]	};
     key <AD06> {	[	  y,	Y		]	};
-    key <AD07> {	[	  u,	U		]	};
+    key <AD07> {	[	  BackSpace,	U, u		]	};
     key <AD08> {	[	  i,	I, ccedilla		]	};
     key <AD09> {	[	  o,	O, oe		]	};
     key <AD10> {	[	  p,	P		]	};
@@ -43,7 +44,7 @@ xkb_symbols "basic" {
     key <AC08> {	[	  k,	K		]	};
     key <AC09> {	[	  l,	L		]	};
     key <AC10> {	[ semicolon,	colon		]	};
-    key <AC11> {	[ apostrophe,	quotedbl	]	};
+    key <AC11> {	[         u,	quotedbl	]	};
 
     key <AB01> {	[	  z,	Z 		]	};
     key <AB02> {	[	  x,	X, quotedbl		]	};
