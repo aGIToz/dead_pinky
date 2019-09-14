@@ -7,13 +7,13 @@ xkb_symbols "basic" {
 
     name[Group1]= "English (US)";
 
-    key <TLDE> {	[     grave,	asciitilde, ecircumflex	]	};
-    key <AE01> {	[	  1,	exclam, eacute 		]	};
-    key <AE02> {	[	  2,	at, egrave		]	};
-    key <AE03> {	[	  3,	numbersign, agrave	]	};
-    key <AE04> {	[	  4,	dollar, acircumflex		]	};
-    key <AE05> {	[	  5,	percent, ocircumflex		]	};
-    key <AE06> {	[	  6,	asciicircum,icircumflex		 	]	};
+    key <TLDE> {	[     grave,	asciitilde, ecircumflex, Ecircumflex	]	};
+    key <AE01> {	[	  1,	exclam, eacute, Eacute 		]	};
+    key <AE02> {	[	  2,	at, egrave, Egrave		]	};
+    key <AE03> {	[	  3,	numbersign, agrave, Agrave	]	};
+    key <AE04> {	[	  4,	dollar, acircumflex, Acircumflex		]	};
+    key <AE05> {	[	  5,	percent, ocircumflex, Ocircumflex		]	};
+    key <AE06> {	[	  6,	asciicircum,icircumflex, Icircumflex		 	]	};
     key <AE07> {	[	  7,	ampersand	]	};
     key <AE08> {	[	  8,	asterisk	]	};
     key <AE09> {	[	  9,	parenleft	]	};
@@ -28,8 +28,8 @@ xkb_symbols "basic" {
     key <AD05> {	[	  t,	T, parenright		]	};
     key <AD06> {	[	  y,	Y		]	};
     key <AD07> {	[	  BackSpace,	U, u		]	};
-    key <AD08> {	[	  i,	I, ccedilla		]	};
-    key <AD09> {	[	  o,	O, oe		]	};
+    key <AD08> {	[	  i,	I, ccedilla, Ccedilla		]	};
+    key <AD09> {	[	  o,	O, oe, OE		]	};
     key <AD10> {	[	  p,	P		]	};
     key <AD11> {	[ bracketleft,	braceleft	]	};
     key <AD12> {	[ bracketright,	braceright	]	};
@@ -43,8 +43,8 @@ xkb_symbols "basic" {
     key <AC07> {	[	  j,	J		]	};
     key <AC08> {	[	  k,	K		]	};
     key <AC09> {	[	  l,	L		]	};
-    key <AC10> {	[         u,	colon		]	};
-    key <AC11> {	[         u,	quotedbl	]	};
+    key <AC10> {	[         u,	colon, U		]	};
+    key <AC11> {	[         u,	U	]	};
 
     key <AB01> {	[	  z,	Z, semicolon 		]	};
     key <AB02> {	[	  x,	X, quotedbl		]	};
