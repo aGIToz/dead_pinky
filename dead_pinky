@@ -27,7 +27,7 @@ xkb_symbols "basic" {
     key <AD04> {	[	  r,	R, parenleft		]	};
     key <AD05> {	[	  t,	T, parenright		]	};
     key <AD06> {	[	  y,	Y		]	};
-    key <AD07> {	[	  BackSpace,	U, u		]	};
+    key <AD07> {	[	  BackSpace,	U, ucircumflex, Ucircumflex		]	};
     key <AD08> {	[	  i,	I, ccedilla, Ccedilla		]	};
     key <AD09> {	[	  o,	O, oe, OE		]	};
     key <AD10> {	[	  p,	P		]	};
